@@ -13,7 +13,7 @@ const MealItem = (props) => {
           <div className={classes.price}>{price}</div>
         </div>
         <div>
-          <AddToCartForm />
+          <AddToCartForm id={props.id}/>
         </div>
       </li>
     </Fragment>
