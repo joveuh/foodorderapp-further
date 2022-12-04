@@ -9,7 +9,7 @@ const Header = (props) => {
     <Fragment>
       <header className={classes.header}>
         <h1>Meals App</h1>
-        <HeaderCartButton />
+        <HeaderCartButton onClick={props.onShowCart}/>
       </header>
       {/* we use classes[] because there is a hyphen '-' in the style name */}
       <div className={classes["main-image"]}>
