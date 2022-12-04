@@ -1,11 +1,13 @@
-import { Fragment } from "react"
+import React from "react";
+import classes from './AddToCartForm.module.css';
 
 const AddToCartForm = () => {
     return (
-        <Fragment>
-            <div></div>
-        </Fragment>
-    );
+        <form className={classes.form}>
+            <input />
+            <button>+ Add</button>
+        </form>
+    )
 };
 
 export default AddToCartForm;

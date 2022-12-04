@@ -3,8 +3,7 @@ import AddToCartForm from "./AddToCartForm";
 import classes from "./MealItem.module.css";
 
 const MealItem = (props) => {
-
-    const price = `$${props.price.toFixed(2)}`;
+  const price = `$${props.price.toFixed(2)}`;
   return (
     <Fragment>
       <li className={classes.meal}>
@@ -14,7 +13,7 @@ const MealItem = (props) => {
           <div className={classes.price}>{price}</div>
         </div>
         <div>
-            <AddToCartForm />
+          <AddToCartForm />
         </div>
       </li>
     </Fragment>
